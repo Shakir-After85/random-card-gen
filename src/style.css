@@ -1,25 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-.spades::before,
-.spades::after {
-  content: "\2660";
-}
-
-.hearts::before,
-.hearts::after {
-  content: "\2665";
-}
-
-.diamonds::before,
-.diamonds::after {
-  content: "\2666";
-}
-
-.clubs::before,
-.clubs::after {
-  content: "\2663";
-}
-
 body {
   background-color: green;
 }
@@ -47,5 +27,11 @@ body {
   position: absolute;
   bottom: 20px;
   right: 20px;
+  font-size: 80px;
+}
+.number {
+  position: absolute;
+  top: 35%;
+  left: 37%;
   font-size: 80px;
 }
