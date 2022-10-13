@@ -1,8 +1,9 @@
 /* eslint-disable */
 import "bootstrap";
+import { Button } from "bootstrap";
 import "./style.css";
 
-window.onload = function() {
+window.onload = () => {
   let topSuit = document.querySelector(".top-suit");
   let myNumber = document.querySelector(".number");
   let bottomSuit = document.querySelector(".bottom-suit");
@@ -12,6 +13,9 @@ window.onload = function() {
   topSuit.innerHTML = randomSuit;
   bottomSuit.innerHTML = randomSuit;
   myNumber.innerHTML = rankList[getRandomInteger(rankList)];
+
+  if ((suits[0], [1])) {
+  }
 
   function getRandomInteger(array) {
     return Math.floor(Math.random() * array.length);
