@@ -14,7 +14,10 @@ window.onload = () => {
   bottomSuit.innerHTML = randomSuit;
   myNumber.innerHTML = rankList[getRandomInteger(rankList)];
 
-  if ((suits[0], [1])) {
+  // use document.getElementsByClassName or "ById"(array)
+  if (randomSuit == suits[0] || randomSuit == suits[1]) {
+    document.getElementsByClassName("top-suit")[0].style.color = "red";
+    document.getElementsByClassName("bottom-suit")[0].style.color = "red";
   }
 
   function getRandomInteger(array) {
